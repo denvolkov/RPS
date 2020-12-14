@@ -37,23 +37,37 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="108" height="132"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                                 <state key="normal" title="👊"/>
+                                                <connections>
+                                                    <action selector="rockButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqg-2X-0Bt"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOh-xe-CUU">
                                                 <rect key="frame" x="116" y="0.0" width="108" height="132"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                                 <state key="normal" title="👋"/>
+                                                <connections>
+                                                    <action selector="paperButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5v-au-PoJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5f2-xR-0hO">
                                                 <rect key="frame" x="232" y="0.0" width="108" height="132"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                                 <state key="normal" title="✌️"/>
+                                                <connections>
+                                                    <action selector="scissorsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yoo-2K-nSJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS0-bo-utp">
                                         <rect key="frame" x="96" y="399" width="148" height="48"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                        <state key="normal" title="Play Again"/>
+                                        <state key="normal" title="Play Again">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J2m-vc-ukx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -65,6 +79,14 @@
                             <constraint firstItem="Zfe-Ny-tZX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="njZ-v6-0cM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="paperButton" destination="pOh-xe-CUU" id="WOo-O5-i6q"/>
+                        <outlet property="resetButton" destination="gS0-bo-utp" id="DEJ-vW-xeD"/>
+                        <outlet property="robotButton" destination="jpH-fh-Dcj" id="mpV-Ef-ThH"/>
+                        <outlet property="rockButton" destination="hr7-9M-9MA" id="o7P-VL-qah"/>
+                        <outlet property="scissorsButton" destination="5f2-xR-0hO" id="szy-Dw-PjM"/>
+                        <outlet property="statusLabel" destination="Leb-GI-x6q" id="gYN-A4-3B0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
