@@ -17,6 +17,11 @@
 		5212B5362583929000A767C7 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212B5352583929000A767C7 /* RPSUITests.swift */; };
 		5212B5472583957D00A767C7 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212B5462583957D00A767C7 /* GameState.swift */; };
 		5212B54C258395CF00A767C7 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212B54B258395CF00A767C7 /* Sign.swift */; };
+		524AA5082589F87900C27606 /* Screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA5032589F87700C27606 /* Screenshot05.png */; };
+		524AA5092589F87900C27606 /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA5042589F87800C27606 /* Screenshot03.png */; };
+		524AA50A2589F87900C27606 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA5052589F87800C27606 /* Screenshot02.png */; };
+		524AA50B2589F87900C27606 /* Screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA5062589F87800C27606 /* Screenshot04.png */; };
+		524AA50C2589F87900C27606 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 524AA5072589F87800C27606 /* Screenshot01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		5212B5372583929000A767C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5212B5462583957D00A767C7 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		5212B54B258395CF00A767C7 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		524AA5032589F87700C27606 /* Screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot05.png; sourceTree = "<group>"; };
+		524AA5042589F87800C27606 /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		524AA5052589F87800C27606 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		524AA5062589F87800C27606 /* Screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot04.png; sourceTree = "<group>"; };
+		524AA5072589F87800C27606 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,7 @@
 		5212B5122583928B00A767C7 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				524AA5102589F88A00C27606 /* Screenshots */,
 				5212B5132583928B00A767C7 /* AppDelegate.swift */,
 				5212B5152583928B00A767C7 /* SceneDelegate.swift */,
 				5212B5172583928B00A767C7 /* ViewController.swift */,
@@ -132,6 +143,18 @@
 				5212B5372583929000A767C7 /* Info.plist */,
 			);
 			path = RPSUITests;
+			sourceTree = "<group>";
+		};
+		524AA5102589F88A00C27606 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				524AA5072589F87800C27606 /* Screenshot01.png */,
+				524AA5052589F87800C27606 /* Screenshot02.png */,
+				524AA5042589F87800C27606 /* Screenshot03.png */,
+				524AA5062589F87800C27606 /* Screenshot04.png */,
+				524AA5032589F87700C27606 /* Screenshot05.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +262,12 @@
 			files = (
 				5212B5202583928F00A767C7 /* LaunchScreen.storyboard in Resources */,
 				5212B51D2583928F00A767C7 /* Assets.xcassets in Resources */,
+				524AA50C2589F87900C27606 /* Screenshot01.png in Resources */,
+				524AA5082589F87900C27606 /* Screenshot05.png in Resources */,
+				524AA5092589F87900C27606 /* Screenshot03.png in Resources */,
 				5212B51B2583928B00A767C7 /* Main.storyboard in Resources */,
+				524AA50A2589F87900C27606 /* Screenshot02.png in Resources */,
+				524AA50B2589F87900C27606 /* Screenshot04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
